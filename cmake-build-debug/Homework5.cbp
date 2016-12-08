@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Homework5"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\modules\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/Chinmay/Documents/SFMLGameProject/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/Chinmay/Documents/SFMLGameProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Chinmay/Documents/SFMLGameProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Chinmay/Documents/SFMLGameProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Chinmay/Documents/SFMLGameProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/Chinmay/Documents/SFMLGameProject/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/Chinmay/Documents/SFMLGameProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Chinmay/Documents/SFMLGameProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Chinmay/Documents/SFMLGameProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Chinmay/Documents/SFMLGameProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/Chinmay/Documents/SFMLGameProject/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/Chinmay/Documents/SFMLGameProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Chinmay/Documents/SFMLGameProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Chinmay/Documents/SFMLGameProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Chinmay/Documents/SFMLGameProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="h5">
+				<Option output="/Users/Chinmay/Documents/SFMLGameProject/cmake-build-debug/h5" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/Chinmay/Documents/SFMLGameProject/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/Chinmay/Documents/SFMLGameProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 h5"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Chinmay/Documents/SFMLGameProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Chinmay/Documents/SFMLGameProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Chinmay/Documents/SFMLGameProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="h5/fast">
+				<Option output="/Users/Chinmay/Documents/SFMLGameProject/cmake-build-debug/h5" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/Chinmay/Documents/SFMLGameProject/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/Chinmay/Documents/SFMLGameProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 h5/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Chinmay/Documents/SFMLGameProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Chinmay/Documents/SFMLGameProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Chinmay/Documents/SFMLGameProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/Chinmay/Documents/SFMLGameProject/Game.cpp">
+			<Option target="h5"/>
+		</Unit>
+		<Unit filename="/Users/Chinmay/Documents/SFMLGameProject/Game.h">
+			<Option target="h5"/>
+		</Unit>
+		<Unit filename="/Users/Chinmay/Documents/SFMLGameProject/GameObject.cpp">
+			<Option target="h5"/>
+		</Unit>
+		<Unit filename="/Users/Chinmay/Documents/SFMLGameProject/GameObject.h">
+			<Option target="h5"/>
+		</Unit>
+		<Unit filename="/Users/Chinmay/Documents/SFMLGameProject/main.cpp">
+			<Option target="h5"/>
+		</Unit>
+		<Unit filename="/Users/Chinmay/Documents/SFMLGameProject/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/Chinmay/Documents/SFMLGameProject/modules/FindSFML.cmake">
+			<Option virtualFolder="CMake Files\modules\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
