@@ -7,7 +7,7 @@
 #include "GameObject.h"
 #include <iostream>
 
-
+// Hi there
 class Game {
 public:
     //use default screen size
