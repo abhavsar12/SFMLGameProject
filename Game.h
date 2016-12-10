@@ -6,6 +6,7 @@
 #include <SFML/Graphics.hpp>
 #include "GameObject.h"
 #include <iostream>
+#include <stdlib.h>
 
 // Hi there
 class Game {
@@ -28,9 +29,13 @@ private:
 
     GameObject m_player;
     GameObject m_background;
+    GameObject m_backgroundFiller;
     GameObject m_fire;
     GameObject m_fire2;
-    GameObject m_Snake;
+    GameObject m_Snake1;
+    GameObject m_Snake2;
+
+
 
 
     //TODO::these should be moved to game object

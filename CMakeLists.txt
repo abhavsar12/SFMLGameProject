@@ -16,8 +16,9 @@ set(SOURCE_FILES
 #copy file to where my executable is
 file(COPY "content/dragon.png" DESTINATION "${CMAKE_BINARY_DIR}")
 file(COPY "content/fire.png" DESTINATION "${CMAKE_BINARY_DIR}")
-file(COPY "content/Snake.png" DESTINATION "${CMAKE_BINARY_DIR}")
-file(COPY "content/goblin.png" DESTINATION "${CMAKE_BINARY_DIR}")
+file(COPY "content/Snakes.png" DESTINATION "${CMAKE_BINARY_DIR}")
+file(COPY "content/background.png" DESTINATION "${CMAKE_BINARY_DIR}")
+
 
 
 

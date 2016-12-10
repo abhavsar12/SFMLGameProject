@@ -4,6 +4,7 @@
 #pragma once
 
 #include <SFML/Graphics.hpp>
+#include <stdlib.h>
 
 class GameObject {
 public:
@@ -25,6 +26,8 @@ public:
     virtual float getWidth() const;
 
     virtual void setScale(float scale);
+
+    virtual sf::FloatRect getGlobalBounds() const;
 
 private:
     sf::Sprite m_sprite;

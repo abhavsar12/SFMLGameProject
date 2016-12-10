@@ -53,3 +53,8 @@ void GameObject::setScale(float scale) {
     if(m_valid)
         m_sprite.setScale(scale, scale);
 }
+
+sf::FloatRect GameObject::getGlobalBounds() const {
+    if(m_valid)
+        return m_sprite.getGlobalBounds();
+}

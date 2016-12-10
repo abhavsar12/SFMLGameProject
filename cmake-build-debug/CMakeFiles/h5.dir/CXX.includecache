@@ -17,6 +17,8 @@ GameObject.h
 /Users/Chinmay/Documents/SFMLGameProject/GameObject.h
 iostream
 -
+stdlib.h
+-
 
 /Users/Chinmay/Documents/SFMLGameProject/GameObject.cpp
 GameObject.h
@@ -25,6 +27,8 @@ GameObject.h
 /Users/Chinmay/Documents/SFMLGameProject/GameObject.h
 SFML/Graphics.hpp
 -
+stdlib.h
+-
 
 /Users/Chinmay/Documents/SFMLGameProject/main.cpp
 SFML/Graphics.hpp
@@ -32,6 +36,8 @@ SFML/Graphics.hpp
 Game.h
 /Users/Chinmay/Documents/SFMLGameProject/Game.h
 iostream
+-
+stdlib.h
 -
 
 /usr/local/include/SFML/Config.hpp
