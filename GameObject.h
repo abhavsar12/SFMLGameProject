@@ -4,7 +4,8 @@
 #pragma once
 
 #include <SFML/Graphics.hpp>
-#include <stdlib.h>
+#include <string>
+
 
 class GameObject {
 public:

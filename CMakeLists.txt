@@ -14,13 +14,15 @@ set(SOURCE_FILES
         Game.cpp Game.h GameObject.cpp GameObject.h)
 
 #copy file to where my executable is
+file(COPY "content/Title.png" DESTINATION "${CMAKE_BINARY_DIR}")
+file(COPY "content/Story1.png" DESTINATION "${CMAKE_BINARY_DIR}")
+file(COPY "content/Story2.png" DESTINATION "${CMAKE_BINARY_DIR}")
 file(COPY "content/dragon.png" DESTINATION "${CMAKE_BINARY_DIR}")
 file(COPY "content/fire.png" DESTINATION "${CMAKE_BINARY_DIR}")
 file(COPY "content/Snakes.png" DESTINATION "${CMAKE_BINARY_DIR}")
 file(COPY "content/background.png" DESTINATION "${CMAKE_BINARY_DIR}")
-
-
-
+file(COPY "content/GameOver.png" DESTINATION "${CMAKE_BINARY_DIR}")
+file(COPY "content/Apple Chancery.ttf" DESTINATION "${CMAKE_BINARY_DIR}")
 
 
 

@@ -7,6 +7,7 @@
 #include "GameObject.h"
 #include <iostream>
 #include <stdlib.h>
+#include <string>
 
 // Hi there
 class Game {
@@ -21,6 +22,11 @@ private:
     //update the game objects
     void update(sf::Time deltaT);
     //draw the scene
+    void renderTitle();
+    void renderStory1();
+    void renderStory2();
+    void renderEndGame();
+    //draw the title
     void render();
     //handle input from the user
     void handlePlayerInput(sf::Keyboard::Key key, bool isDown);
@@ -34,6 +40,13 @@ private:
     GameObject m_fire2;
     GameObject m_Snake1;
     GameObject m_Snake2;
+    GameObject m_endGame;
+    GameObject m_titleSlide;
+    GameObject m_Story1;
+    GameObject m_Story2;
+    sf::Text text;
+    sf::Text highscoretext;
+
 
 
 

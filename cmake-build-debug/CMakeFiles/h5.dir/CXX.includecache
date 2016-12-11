@@ -19,6 +19,8 @@ iostream
 -
 stdlib.h
 -
+string
+-
 
 /Users/Chinmay/Documents/SFMLGameProject/GameObject.cpp
 GameObject.h
@@ -27,7 +29,7 @@ GameObject.h
 /Users/Chinmay/Documents/SFMLGameProject/GameObject.h
 SFML/Graphics.hpp
 -
-stdlib.h
+string
 -
 
 /Users/Chinmay/Documents/SFMLGameProject/main.cpp
@@ -38,6 +40,8 @@ Game.h
 iostream
 -
 stdlib.h
+-
+string
 -
 
 /usr/local/include/SFML/Config.hpp
